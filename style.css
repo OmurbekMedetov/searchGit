@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'Roboto Light';
+    src: url('fonts/Roboto-Light.eot');
+    src: url('fonts/Roboto-Light.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Roboto-Light.woff') format('woff'),
+    url('fonts/Roboto-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+body {
+    margin: 0;
+    padding: 0; 
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    background: #E5E5E5;
+}
+.container { 
+ font-family: 'Roboto', sans-serif; 
+ height: 763px;
+ width: 661px; 
+ background: #C4C4C4;
+ text-align: center;
+ margin: 0 auto;
+}
+.search__git {
+    height: 61px;
+    width: 500px;
+    margin: 62px 80px 0 73px;
+    line-height: 56px;
+    font-size: 48px;
+    color: #000;
+}
+.search__git::placeholder {
+    font-size: 48px;
+    color: #000;
+    text-align: left;
+}
+.information__repositories {
+    height: 61px;
+    width: 496px;
+    border: 1px solid #000000;
+    margin: 20px 80px 0 73px;
+    background-color: #E27BEB;
+    padding:5px;
+}
+.name__repositories:hover {
+    background: #65CDF9;
+}
+.name__repositories {
+    height: 61px;
+    width: 496px;
+    border: 2px solid #000000;
+    margin: 0 80px 0 73px;
+    background-color: #E3E3E3;
+    padding: 5px;
+    overflow: hidden;
+}
+.close {
+    background-image: url('cancel.png');
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: -60px;
+    left: 230px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none
+}
